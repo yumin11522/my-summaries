@@ -4,7 +4,8 @@
 - 重启系统 `sudo reboot` 
 
 ## 配置静态IP地址
-	
+	sudo vi /etc/network/interface
+
 	auto eth0
 	iface eth0 inet static
 	address 10.8.9.143  IP地址
