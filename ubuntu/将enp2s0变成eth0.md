@@ -44,3 +44,6 @@
 	update-rc.d -f sshd remove         # Disable sshd for all runlevels
 	shutdown -h now (or # poweroff)    # Shutdown and halt the system
 
+
+## ubuntu 18之后修改IP
+https://blog.csdn.net/lengye7/article/details/88889807

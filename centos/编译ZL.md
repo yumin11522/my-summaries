@@ -23,5 +23,9 @@ make & make install
 	./configure
 	
 	make & make install
+	
+- pkg-config 找不到已安装的包解决方案
+	
+	PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib64/lib/pkgconfig/ && export PKG_CONFIG_PATH
 
 重新编译安装x264即可。成功后x264目录下会出现可执行文件x264。
