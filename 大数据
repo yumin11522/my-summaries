@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-07T09:54:31.489Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.66" etag="t102TFJ_FNeapg68RBqu" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-07T09:57:34.864Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.66" etag="RpYcuYtAfKovYXPTrhD4" version="14.1.8" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
-    <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,6 +27,12 @@
         </mxCell>
         <mxCell id="Sx-4yh1zyjy_ATaFO0NM-13" value="HBase、HDFS、" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="170" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-14" value="Hive、Spark SQL、Impala、Drill、Kylin、Phoenix......." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="70" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-15" value="Atlas、Datahub" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-10" width="470" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
