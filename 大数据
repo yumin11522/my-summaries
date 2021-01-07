@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-07T10:04:00.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.66" etag="Bp0smquFqr8Oy3X7SEMM" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-07T10:11:27.547Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.66" etag="kbIbJX7yiyyGBluxp1Hv" version="14.1.8" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="1185" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -42,7 +42,7 @@
         <mxCell id="Sx-4yh1zyjy_ATaFO0NM-15" value="Atlas、Datahub" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="-10" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-16" value="Zepplin、Hue、Superet" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-16" value="Zepplin、Hue、Superset" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="-120" width="470" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sx-4yh1zyjy_ATaFO0NM-20" value="Zookepper" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="1">
@@ -50,6 +50,27 @@
         </mxCell>
         <mxCell id="Sx-4yh1zyjy_ATaFO0NM-21" value="CDH、Ambari" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="1">
           <mxGeometry x="650" y="-120" width="30" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-120" width="90" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-23" value="ETL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="427" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-24" value="分析处理层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="324" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-25" value="存储层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="216" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-26" value="接口层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="108" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-27" value="元数据层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-28" value="展现层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-110" width="70" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
