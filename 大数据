@@ -1,38 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-01-07T09:57:34.864Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.66" etag="RpYcuYtAfKovYXPTrhD4" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-07T10:04:00.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.66" etag="Bp0smquFqr8Oy3X7SEMM" version="14.1.8" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="1185" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-1" value="ETL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="410" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-4" value="文件系统" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="530" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-5" value="外部数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="280" y="530" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-6" value="实时数据处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="410" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-7" value="内部数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="510" y="530" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-8" value="Kafka" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="420" y="530" width="60" height="80" as="geometry" />
+        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-1" value="DataX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="422" width="470" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sx-4yh1zyjy_ATaFO0NM-11" value="Hadoop、Strom、Flink、Spark......." style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="290" width="470" height="60" as="geometry" />
+          <mxGeometry x="120" y="314" width="470" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-13" value="HBase、HDFS、" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="170" width="470" height="60" as="geometry" />
+        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-13" value="HBase、HDFS、MySQL、Redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="206" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sx-4yh1zyjy_ATaFO0NM-14" target="Sx-4yh1zyjy_ATaFO0NM-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="473" y="19" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sx-4yh1zyjy_ATaFO0NM-14" target="Sx-4yh1zyjy_ATaFO0NM-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="98" />
+              <mxPoint x="260" y="98" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Sx-4yh1zyjy_ATaFO0NM-14" value="Hive、Spark SQL、Impala、Drill、Kylin、Phoenix......." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="70" width="470" height="60" as="geometry" />
+          <mxGeometry x="120" y="98" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sx-4yh1zyjy_ATaFO0NM-15" target="Sx-4yh1zyjy_ATaFO0NM-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="-50" />
+              <mxPoint x="260" y="-50" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Sx-4yh1zyjy_ATaFO0NM-15" value="Atlas、Datahub" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="-10" width="470" height="60" as="geometry" />
+          <mxGeometry x="120" y="-10" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-16" value="Zepplin、Hue、Superet" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-120" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-20" value="Zookepper" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="-120" width="30" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="Sx-4yh1zyjy_ATaFO0NM-21" value="CDH、Ambari" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-120" width="30" height="600" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
