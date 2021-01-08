@@ -19,3 +19,7 @@
     - git checkout file1 （回滚单个文件）
     - git checkout file1 file2 ... fileN （一次回滚多个文件，中间用空格隔开即可）
     - git checkout . （直接回滚当前目录一下的所有working tree内的修改，会递归扫描当前目录下的所有子目录）
+
+# Windows git clone 有时会出现 error: invalid path 大多是由于文件名格式不支持所致。解决方法：
+    - git config core.protectNTFS false
+    - git checkout master
