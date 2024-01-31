@@ -1,0 +1,5 @@
+读取YUV数据：  switch_core_session_read_video_frame
+写入YUV数据：  switch_core_session_write_video_frame
+
+读取 RTP 数据：switch_core_media_read_frame
+写入 RTP 数据：switch_core_media_write_frame
